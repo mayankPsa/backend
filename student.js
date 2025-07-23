@@ -39,6 +39,7 @@ const FreekSchema=new mongoose.Schema({
         type:string
     }
     creep
+    other
 })
 
  const student=mongoose.model('Freek', FreekSchema);
