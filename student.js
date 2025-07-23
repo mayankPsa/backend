@@ -35,6 +35,9 @@ const FreekSchema=new mongoose.Schema({
     contact:{
         type:Number,
     },
+    detail:{
+        type:string
+    }
 })
 
  const student=mongoose.model('Freek', FreekSchema);
